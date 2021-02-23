@@ -56,4 +56,4 @@ console.log(getAccounts());
 console.log(getAccounts("Bob"));
 console.log(getAccounts("Charlie"));
 console.log(getAccounts("", "acctNum"));
-console.log(getAccounts("Alice", "balance"));
+console.log(getAccounts("Alice", "balance", "asc"));
