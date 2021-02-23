@@ -43,7 +43,7 @@ function getAccounts(user = "", sortBy = "acctNum", sortDirection = "asc") {
   output = mySort(output, sortBy, sortDirection === "asc");
 
   // not sure if asked account number object array or just account numbers array not clearly mentioned
-  return output.map(acc => ({ acctNum: acc["acctNum"] }));
+  return output.map(acc => acc["acctNum"]);
 }
 
 function mySort(data, prop, isAsc) {
