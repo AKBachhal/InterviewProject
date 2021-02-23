@@ -52,7 +52,6 @@ function mySort(data, prop, isAsc) {
   });
 }
 
-console.log(getAccounts());
 console.log(getAccounts("Bob"));
 console.log(getAccounts("Charlie"));
 console.log(getAccounts("", "acctNum"));
